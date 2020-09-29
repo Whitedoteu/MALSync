@@ -178,9 +178,9 @@ module.exports = {
   vshare: {
     match: ['*://*.vshare.io/v/*'],
   },
-  // kissanime/9anime
+  // kissanime/9anime/gogoanime
   hydrax: {
-    match: ['*://*.replay.watch/*', '*://*.playhydrax.com/*', '*://hydrax.net/*'],
+    match: ['*://*.replay.watch/*', '*://*.playhydrax.com/*', '*://hydrax.net/*', '*://*.hydracdn.network/*'],
   },
   // animeflv
   streamium: {
@@ -285,6 +285,10 @@ module.exports = {
   // okanime
   okgaming: {
     match: ['*://*.okgaming.org/I/*'],
+  },
+  // gogoanime
+  gogostream: {
+    match: ['*://*.gogo-stream.com/streaming.php?*', '*://*.gogo-stream.com/load.php?*'],
   },
   // bs.to
   vivo: {
